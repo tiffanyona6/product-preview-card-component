@@ -1,74 +1,90 @@
-*{box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-img{
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
+}
+main {
+  padding: 0 32px;
+  background-color: white;
 }
 
-body{
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Fraunces", serif;
-    color: #6C7289;
-    width: 375px;
-    height: 667px;
-    background-color: white;
-    border-radius: 10%;
+header {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: white;
+}
+body {
+  background-color: aqua;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
+  color: #6c7289;
+  border-radius: 10%;
 }
 
-body::after{
-    stroke:50px;
-    color: #F2EAE2;
+.image {
+  width: 375px;
+  height: 295px;
+  border-radius: 8px 8px 0 0;
 }
 
-h1{
-font-weight: 700;
-font-size:32px;
-color: black;
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
 }
 
-p{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
 }
-.size14{
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.eurocolor{
-    color: #3D8168;
-    font-family: "Montserrat", serif;
-    font-weight: 500px;
-    font-size: 13px;
+.size14 {
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.dolarcolor{
-    color: #6C7289;
-    font-family: "Fraunces", serif;
-    font-weight: 700px;
-    font-size: 32px;
+.pricetachado {
+  color: #6c7289;
+  font-family: "Montserrat", serif;
+  font-weight: 500px;
+  font-size: 13px;
+  text-decoration: line-through;
+  margin-left: 20px;
+}
+.pricetachado::after {
+  content: attr(data-currency);
 }
 
-
-.price::after{
-    content: attr(data-currency);
-    color: #3D8168;
+.pricebold {
+  color: #3d8168;
+  font-family: "Fraunces", serif;
+  font-weight: 700px;
+  font-size: 32px;
+}
+.pricebold::after {
+  content: attr(data-currency);
 }
 
-.addtocart{
-    background-color:#3D8168;
-    width: 295px;
-    height: 48px;
-    text-align: center;
+.boton {
+  display: inline-block;
+  background-color: #3d8168;
+  position: relative;
+  width: 295px;
+  height: 48px;
+  top: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700px;
+  text-align: center;
+  border-radius: 8px;
 }
-
-.boxtext{
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    font-weight: 700px;
-    text-align:initial;
+.icon-cart {
+  position: absolute;
+  right: 200px;
+  top: 20px;
 }
