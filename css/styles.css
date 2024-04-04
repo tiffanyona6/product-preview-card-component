@@ -7,47 +7,61 @@ img {
   max-width: 100%;
 }
 main {
-  padding: 0 32px;
-  background-color: white;
+  padding: 28px 16px;
 }
-
-header {
-  margin-bottom: 24px;
-  padding: 24px;
+.card {
+  width: 343px;
   background-color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+.card__info {
+  padding: 28px 16px;
 }
 body {
-  background-color: aqua;
-  margin: 0;
+  background-color: #f2eae2;
   font-family: "Montserrat", sans-serif;
   font-family: "Fraunces", serif;
   color: #6c7289;
   border-radius: 10%;
 }
 
-.image {
-  width: 375px;
-  height: 295px;
-  border-radius: 8px 8px 0 0;
-}
-
 h1 {
   font-weight: 700;
   font-size: 32px;
   color: black;
+  margin-block: 0;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 12px;
+  margin-top: 16px;
 }
-.size14 {
+.card__image {
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 24px;
+}
+.overline {
+  font-family: "Montserrat";
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.body__size {
   font-weight: 500;
   font-size: 14px;
 }
 
-.pricetachado {
+.price {
+  color: #3d8168;
+  font-family: "Fraunces", serif;
+  font-weight: 700px;
+  font-size: 32px;
+}
+.price::after {
+  content: attr(data-discount);
+  position: absolute;
   color: #6c7289;
   font-family: "Montserrat", serif;
   font-weight: 500px;
@@ -55,26 +69,13 @@ p {
   text-decoration: line-through;
   margin-left: 20px;
 }
-.pricetachado::after {
-  content: attr(data-currency);
-}
 
-.pricebold {
-  color: #3d8168;
-  font-family: "Fraunces", serif;
-  font-weight: 700px;
-  font-size: 32px;
-}
-.pricebold::after {
-  content: attr(data-currency);
-}
-
-.boton {
+.button {
   display: inline-block;
   background-color: #3d8168;
   position: relative;
   width: 295px;
-  height: 48px;
+  padding: 24px;
   top: 20px;
   color: white;
   font-family: "Montserrat", sans-serif;
