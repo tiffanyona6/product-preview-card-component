@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
+- [URL-de-github-pages-de-este-proyecto](https://tiffanyona6.github.io/product-preview-card-component/)
 - [URL-de-la-api](URL-de-la-api)
 
 ## Descripción 📑
