@@ -1,6 +1,6 @@
-# Título del proyecto
+# Product Preview Card Component
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/tiffanyona6/product-preview-card-component/main/Readme-img/desktop-preview.jpg)
 
 ## Ejemplo en vivo
 
@@ -9,11 +9,12 @@
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Diseño de página web responsive.
+
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Diseño de una página web responsive, aplicando la etiqueta de picture data y el active state del botón.
 
 ## Tecnologías 🛠
 
@@ -27,17 +28,17 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Formato web](https://raw.githubusercontent.com/tiffanyona6/product-preview-card-component/main/Readme-img/desktop-design.jpg)
+![Formato mobile](https://raw.githubusercontent.com/tiffanyona6/product-preview-card-component/main/Readme-img/mobile-design.jpg)
+![Formato active state](https://raw.githubusercontent.com/tiffanyona6/product-preview-card-component/main/Readme-img/active-states.jpg)
+
 
 ## Autor ✒️
 
-**TU NOMBRE**
+Tiffany Oña Bouchakour
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
-- [Porfolio web](https://tu-dominio.com/)
+- tiffanyona6@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/tiffany-o%C3%B1a-/)
 
 ## Instalación
 
