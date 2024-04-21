@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Product Preview Card Component</title>
-  </head>
-  <body>
-    <main>
-      <section class="card">
-        <img
-          class="card__image"
-          src="./assets/images/image-product-mobile.jpg"
-          alt="Image Product Mobile"
-        />
-        <div class="card__info">
-          <p class="overline">PERFUME</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat&display=swap"
+    rel="stylesheet" />
 
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-          <p class="body__size">
-            A floral, solar and voluptuous interpretation composed by Olivier
-            Polge, Perfumer-Creator for the House of CHANEL.
-          </p>
+  <title>Product Preview Card Component</title>
+</head>
 
-          <span class="price" data-discount="$169.99">$149.99</span>
+<body>
+  <main>
 
-          <a class="button" href="#">
-            <img
-              class="icon-cart"
-              src="./assets/images/icon-cart.svg"
-              alt="icon cart"
-            />
-            Add to cart
-          </a>
-        </div>
-      </section>
-    </main>
-  </body>
+
+    <section class="card">
+      <picture class="card__image">
+        <source media="(min-width: 768px)" srcset="./assets/images/image-product-desktop.jpg" />
+        <source media="(min-width: 768px)" srcset="./assets/images/image-product-mobile.jpg" />
+        <img src="./assets/images/image-product-mobile.jpg" alt="imagen Mobile">
+      </picture>
+      <div class="card__info">
+        <p class="overline">PERFUME</p>
+
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p class="body__size">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+
+        <span class="price" data-discount="$169.99">$149.99</span>
+
+        <a class="button" href="#">
+          <img class="icon-cart" src="./assets/images/icon-cart.svg" alt="icon cart" />
+          Add to cart
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
